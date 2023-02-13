@@ -1,0 +1,134 @@
+:root {
+    --main-textcolor: #2E2F42;
+    --second-textcolor: #434455;
+    --header-color: #FFFFFF;
+    --footer-color: #E7E9FC;
+    --logoweb-color: #4D5AE5; 
+    --logostudio-color: #F4F4FD;
+    --background-color: #fff;
+    --nav-hoverfocus: #404BBF;
+}
+
+body {
+    color: var(--second-textcolor);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+
+.page {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+   }
+
+.logo {
+    color: var(--main-textcolor);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+.footer {
+    background: var(--main-textcolor);
+}
+
+.logo-footer {
+    color: var(--logostudio-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+.description {
+    color: var(--footer-color);
+}
+
+span {
+    color: var(--logoweb-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav a {
+    color: var(--main-textcolor);
+    font-weight: 500;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--nav-hoverfocus);
+}
+
+.auth-nav a{
+    color: var(--second-textcolor);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--nav-hoverfocus);
+}
+
+.hero {
+    background: var(--main-textcolor);
+}
+
+.hero-title {
+    color: var(--background-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+}
+
+.section-title {
+    color: var(--main-textcolor);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.title {
+    color: var(--main-textcolor);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.button-primary {
+    cursor: pointer;
+    color:var(--background-color);
+    background: var(--logoweb-color);
+    border-width: 0px;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    background: var(--nav-hoverfocus);
+}
+.button-secondary:hover, 
+.button-secondary:focus {
+    background: var(--nav-hoverfocus);
+    color: var(--header-color);
+}
+
+.button-secondary {
+    cursor: pointer;
+    color: var(--logoweb-color);
+    background: var(--logostudio-color);
+    border-width: 0px;
+}
+
+.section-team {
+    background-color: var(--logostudio-color);
+}
+
+
+
+
+
+
