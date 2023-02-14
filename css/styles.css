@@ -11,7 +11,7 @@
 
 body {
     color: var(--second-textcolor);
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -19,6 +19,7 @@ body {
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
    }
 
 .logo {
@@ -28,6 +29,7 @@ body {
     line-height: 0.75;
     font-family: 'Raleway';
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .footer {
@@ -41,6 +43,7 @@ body {
     line-height: 0.75;
     font-family: 'Raleway';
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .description {
@@ -53,11 +56,13 @@ span {
 
 .list {
     list-style: none;
+    text-decoration: none;
 }
 
 .site-nav a {
     color: var(--main-textcolor);
     font-weight: 500;
+    text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -67,6 +72,12 @@ span {
 
 .auth-nav a{
     color: var(--second-textcolor);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
 }
 
 .auth-nav a:hover,
@@ -97,13 +108,27 @@ span {
     color: var(--main-textcolor);
     font-weight: 500;
     font-size: 20px;
-}
+   }
+
+.content {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    }
 
 .button-primary {
     cursor: pointer;
     color:var(--background-color);
     background: var(--logoweb-color);
     border-width: 0px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .button-primary:hover,
@@ -120,11 +145,21 @@ span {
     cursor: pointer;
     color: var(--logoweb-color);
     background: var(--logostudio-color);
-    border-width: 0px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .section-team {
     background-color: var(--logostudio-color);
+}
+
+.link {
+    text-decoration: none;
 }
 
 
